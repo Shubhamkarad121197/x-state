@@ -120,7 +120,8 @@ const App=()=>{
 
         </div>
         {storeCountry?(  <div>
-          <span><b >You Selected <b style={{fontSize:'20px'}}>{storeCountry}</b></b> &nbsp;{storeState},{storeCity}</span>
+          <span><b >You Selected <b style={{fontSize:'20px'}}>{storeCity}</b></b> &nbsp;{storeState},{storeCountry}</span>
+          
         </div>):''}    
       
       </div>
